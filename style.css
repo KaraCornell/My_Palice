@@ -40,38 +40,47 @@ section {
 
 
 
-
-
-
-/* Container styling */
-.header {
+#nav-bar {
+  background: #1e293b;
+  padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 5%;
-  background-color: #333;
-  color: white;
-  position: sticky; /* Keeps header at top while scrolling */
-  top: 0;
-  z-index: 1000;
+  font-family: Arial, sans-serif;
 }
 
-/* Navigation list styling */
-.nav-list {
+#nav-bar .logo {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#nav-bar .nav-links {
   list-style: none;
   display: flex;
-  gap: 20px; /* Space between links */
+  gap: 1.5rem;
 }
 
-/* Link styling */
-.nav-list a {
+#nav-bar .nav-links a {
   text-decoration: none;
-  color: white;
-  font-weight: 500;
-  transition: color 0.3s;
+  color: #f8fafc;
+  transition: color 0.3s ease;
 }
 
-/* Hover effect */
-.nav-list a:hover {
-  color: #04AA6D; /* Green accent on hover */
+#nav-bar .nav-links a:hover {
+  color: #38bdf8;
+}
+
+#nav-bar .nav-btn {
+  background: #38bdf8;
+  color: #0f172a;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+#nav-bar .nav-btn:hover {
+  background: #0ea5e9;
+  color: white;
 }
