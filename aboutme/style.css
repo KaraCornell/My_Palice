@@ -1,0 +1,39 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("https://images.all-free-download.com/images/graphiclarge/hand_drawn_stars_pattern_241227.jpg");
+    }
+
+section {
+  display: flex;
+}
+
+
+ #container {
+    height: 200px;
+    display: flex;
+    /* border: 2px solid rgb(255, 0, 0); */
+    justify-content: space-around;
+    align-items: center;
+ }
+ .header-image{
+    max-width: 100%;
+ }
+
+ .jinshipleasebesmaller {
+   width:200px;
+   height: 200px;
+   border-radius: 20px;
+ }
+
+ h1, h2, h3 {
+    font-family: 'Bubblegum Sans', cursive;
+  text-indent: 30px;
+  color:#963077;
+  font-size: 20px;
+   
+}
