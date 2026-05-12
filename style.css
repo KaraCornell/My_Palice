@@ -37,3 +37,41 @@ section {
   font-size: 20px;
    
 }
+
+
+
+
+
+
+/* Container styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5%;
+  background-color: #333;
+  color: white;
+  position: sticky; /* Keeps header at top while scrolling */
+  top: 0;
+  z-index: 1000;
+}
+
+/* Navigation list styling */
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 20px; /* Space between links */
+}
+
+/* Link styling */
+.nav-list a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+/* Hover effect */
+.nav-list a:hover {
+  color: #04AA6D; /* Green accent on hover */
+}
