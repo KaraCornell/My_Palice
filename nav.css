@@ -1,7 +1,6 @@
 #nav-bar a{
     color: white;
     text-decoration: none;
-    
 }
 
 #nav-bar {
@@ -21,7 +20,7 @@
   width:300px;
   margin: auto;
   
-  color:#8934ce;
+  position: sticky;
   
 }
 
